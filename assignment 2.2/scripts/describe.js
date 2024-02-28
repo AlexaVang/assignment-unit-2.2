@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Declaring a variable called name and assigning a string value of Dane to the variable.
+// Checking to see if name variable is Mary (exact match only)
+// We console.log 'Hi, Mary' if true.
+// Otherwise, we console.log 'How do you do? if condition is false.'
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Declaring variables named secret and code with code having numerical value of 123.
+// Checking to see if variable code is 123 (exact match only) and if it is- give secret string value of 'super' while code is multiplied by 2.
+// Checking to see if result of variable code multiplied by 2 is less than 250. If it is- change secret string value to 'duper'.
+// We console.log 'secret'
 
 //CODE
 /*
@@ -70,10 +70,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Declaring variables named isStudent with a boolean value of true, age with numerical value of 34, and zip with numerical value of 55407.
+// Checking to see if variable isStudent is true (exact match only) and if variable zip is greater than 80000. We console.log `You're a student on the West Coast!` if conditions are true.
+// Checking to see if variable isStudent is false (exact match only) or age is less than 30. We console.log 'What are your hobbies?'
+// Checking to see if variable isStudent is true (exact match only). We console.log 'Welcome to Prime'.
+// Otherwise, we console.log 'How about the weather?'
 
 //CODE
 /*
@@ -134,9 +135,19 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// FIX - variables-- 
+// Should be - let colorOne = 'blue';
+// Should be - let colorTwo = 'red';
+// FIX - result--
+// Should be colorOne and colorTwo = 'purple'; (separately)
+// Add console.log and then we console.log 'colorOne', 'colorTwo', 'mix' to see all the correct values
+
 if (mix === true) {
   colorOne = 'purple';
+  colorTwo = 'purple';
 }
+
+console.log(colorOne, colorTwo, mix);
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
@@ -146,6 +157,12 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
+
+// FIX - variables--
+// Should be let time = 4; because it's asking for a variable and not a constant
+// FIX - compound conditionals--
+// Should not be || because it means "or" and the question asks for "and" which would be &&
+// We console.log 'throw away the food!' 
 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
@@ -159,6 +176,12 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+// FIX - variables--
+// Should be - let minAge = 21; because it's asking for variable and not a constant
+// FIX - console.log--
+// We console.log 'no entry' if age is greater than or equal to minAge
+// Otherwise, we console.log 'enter'
 
 if(minAge <= age) {
   console.log('no entry');
