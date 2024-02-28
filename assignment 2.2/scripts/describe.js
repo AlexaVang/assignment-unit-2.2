@@ -135,7 +135,7 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
-// FIX - variables-- 
+// FIX - variable value-- 
 // Should be - let colorOne = 'blue';
 // Should be - let colorTwo = 'red';
 // FIX - result--
@@ -158,8 +158,6 @@ console.log(colorOne, colorTwo, mix);
 let temp = 40;
 const time = 4;
 
-// FIX - variables--
-// Should be - let time = 4; because it's asking for a variable and not a constant.
 // FIX - compound conditionals--
 // Should not be || because it means "or" and the question asks for "and" which would be &&.
 // We console.log 'throw away the food!' 
@@ -177,8 +175,6 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-// FIX - variables--
-// Should be - let minAge = 21; because it's asking for variable and not a constant.
 // FIX - console.log--
 // Adding console.log - We console.log 'no entry' if age is greater than or equal to minAge.
 // Otherwise, we console.log 'enter'
