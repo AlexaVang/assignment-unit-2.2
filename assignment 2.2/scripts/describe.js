@@ -29,7 +29,7 @@ if (number >= 2) {
 // Declaring a variable called name and assigning a string value of Dane to the variable.
 // Checking to see if name variable is Mary (exact match only).
 // We console.log 'Hi, Mary' if true.
-// Otherwise, we console.log 'How do you do? if condition is false.'
+// Otherwise, we console.log 'How do you do?' if condition is false.
 
 //CODE
 /*
