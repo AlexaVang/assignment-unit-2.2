@@ -27,7 +27,7 @@ if (number >= 2) {
 
 // 1. WRITE YOUR DESCRIPTION HERE
 // Declaring a variable called name and assigning a string value of Dane to the variable.
-// Checking to see if name variable is Mary (exact match only)
+// Checking to see if name variable is Mary (exact match only).
 // We console.log 'Hi, Mary' if true.
 // Otherwise, we console.log 'How do you do? if condition is false.'
 
@@ -48,7 +48,7 @@ if (name === 'Mary') {
 // Declaring variables named secret and code with code having numerical value of 123.
 // Checking to see if variable code is 123 (exact match only) and if it is- give secret string value of 'super' while code is multiplied by 2.
 // Checking to see if result of variable code multiplied by 2 is less than 250. If it is- change secret string value to 'duper'.
-// We console.log 'secret'
+// We console.log 'secret'.
 
 //CODE
 /*
@@ -139,7 +139,7 @@ let mix = true;
 // Should be - let colorOne = 'blue';
 // Should be - let colorTwo = 'red';
 // FIX - result--
-// Should be colorOne and colorTwo = 'purple'; (separately)
+// Should be colorOne and colorTwo = 'purple'; (separately).
 // Add console.log and then we console.log 'colorOne', 'colorTwo', 'mix' to see all the correct values
 
 if (mix === true) {
@@ -159,9 +159,9 @@ let temp = 40;
 const time = 4;
 
 // FIX - variables--
-// Should be let time = 4; because it's asking for a variable and not a constant
+// Should be - let time = 4; because it's asking for a variable and not a constant.
 // FIX - compound conditionals--
-// Should not be || because it means "or" and the question asks for "and" which would be &&
+// Should not be || because it means "or" and the question asks for "and" which would be &&.
 // We console.log 'throw away the food!' 
 
 if (temp > 39 || time >= 4) {
@@ -178,9 +178,9 @@ let age = 21;
 const minAge = 21;
 
 // FIX - variables--
-// Should be - let minAge = 21; because it's asking for variable and not a constant
+// Should be - let minAge = 21; because it's asking for variable and not a constant.
 // FIX - console.log--
-// We console.log 'no entry' if age is greater than or equal to minAge
+// Adding console.log - We console.log 'no entry' if age is greater than or equal to minAge.
 // Otherwise, we console.log 'enter'
 
 if(minAge <= age) {
